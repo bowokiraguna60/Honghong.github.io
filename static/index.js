@@ -343,9 +343,9 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '红嘻嘻？';
-    if (score <= 99) return '红嘿嘿';
-    if (score <= 149) return '你才是红';
+    if (score <= 49) return '逊呐';
+    if (score <= 99) return '嘿嘿嘿';
+    if (score <= 149) return '你是一个一个一个红';
     if (score <= 199) return '？';
     return '人？';
 }
